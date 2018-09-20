@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <com.igalata.bubblepicker.rendering.BubblePicker
+        android:id="@+id/picker"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#5d000000"
+        >
+
+        <TextView
+            android:id="@+id/blink_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/bubble"
+            android:gravity="center"
+            android:text="@string/impulse_18"
+            android:textAllCaps="true"
+            android:textColor="#fcfcfc"
+            android:textSize="35sp"
+            tools:targetApi="LOLLIPOP" />
+    </RelativeLayout>
+
+</LinearLayout>

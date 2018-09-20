@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="crypto2k18">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/crypto_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.MainActivity"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.BubblePickerActivity" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.AboutActivity"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.BubblePickerActivity" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.EventDetailsActivity"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.MainActivity" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.RegisterActivity"
+            android:label="Registeration"
+            android:noHistory="true"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.EventDetailsActivity"
+            android:theme="@style/withToolbar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.BubblePickerActivity" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.RulesActivity"
+            android:label="Rules"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.BubblePickerActivity"
+            android:theme="@style/withToolbar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.SplashScreen"
+            android:noHistory="true"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.DeveloperActivity"
+            android:label="Developer Info"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.BubblePickerActivity"
+            android:theme="@style/withToolbar" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.jeromemarshall.crypto2k18.activity.ScheduleActivity"
+            android:label="@string/title_activity_schedule"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.BubblePickerActivity"
+            android:theme="@style/schedule" />
+        <activity android:name="com.jeromemarshall.crypto2k18.activity.LocationActivity"/>
+        <activity
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:name="com.jeromemarshall.crypto2k18.activity.ThePrideActivity"
+            android:label="Special Thanks!"
+            android:parentActivityName="com.jeromemarshall.crypto2k18.activity.BubblePickerActivity"
+            android:theme="@style/withToolbar" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

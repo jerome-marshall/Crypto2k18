@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Crypto 2k18</string>
+    <string name="drive_your_pulse">2∞&amp;⬆</string>
+    <string name="about_us">About Us</string>
+    <string name="rate_us_on_google_play">Rate us on Google Play</string>
+    <string name="show_your_love_for_us_in_public">Show your Love for us in public</string>
+    <string name="like_us_on_facebook">Like Us on Facebook</string>
+    <string name="don_t_worry_we_don_t_post_child_pics">Don\'t worry we don\'t post child pics</string>
+    <string name="follow_on_instagram">Follow on Instagram</string>
+    <string name="track_the_impulse">Feel the pulse</string>
+    <string name="follow_on_twitter">Follow on twitter</string>
+    <string name="we_post_humours_and_witty_tweets">We post humours and witty tweets</string>
+    <string name="description">Description :</string>
+    <string name="rules">Rules :</string>
+    <string name="registration_fee">Registration Fee:</string>
+    <string name="prize">Registration Fee :</string>
+    <string name="venue">Venue :</string>
+    <string name="coordinator">Coordinator :</string>
+    <string name="register_now">Register Now</string>
+    <string name="registration_details">Rules and Details</string>
+    <string name="read_code_of_conduct">READ Code of Conduct</string>
+    <string name="you_got_it_right">You Got It Right !!</string>
+    <string name="watch_impulse_videos">Watch Crypto videos</string>
+    <string name="we_post_awesome_videos">We Post Awesome Videos</string>
+    <string name="send_us_a_mail">Send us a mail</string>
+    <string name="don_t_worry_we_gonna_reply">Don\'t worry we gonna reply</string>
+    <string name="get_access">Get Access</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Full Name</string>
+    <string name="college_name">College Name</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="profile">Profile</string>
+    <string name="impulse_18">Crypto\' 18</string>
+    <string name="github">Github</string>
+    <string name="the_oxford_college_of_engineering_bommanahalli_hosur_road_bangalore_560068">Adhiyamaan College Of Engineering \nM.G.R Nagar, Hosur - 635109</string>
+    <string name="visit_our_website">Visit our Website</string>
+    <string name="impulse_wall">Crypto Wall</string>
+    <string name="what_s_in_your_mind">What\'s in your mind</string>
+    <string name="photo">Photo</string>
+    <string name="camera">Camera</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

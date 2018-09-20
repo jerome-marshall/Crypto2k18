@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Event</item>
+        <item>Location</item>
+        <item>About Us</item>
+        <item>Developer Info</item>
+        <item>The Pride CSE</item>
+        <item>Rules and Details</item>
+        <item>Schedule</item>
+    </string-array>
+
+    <integer-array name="images">
+        <item>@drawable/events</item>
+        <item>@drawable/location</item>
+        <item>@drawable/aboutus</item>
+        <item>@drawable/developer</item>
+        <item>@drawable/actionwall</item>
+        <item>@drawable/rules</item>
+        <item>@drawable/schedule</item>
+    </integer-array>
+
+    <integer-array name="colors">
+        <item>@color/bubble6</item>
+        <item>@color/bubble7</item>
+        <item>@color/bubble6</item>
+        <item>@color/bubble7</item>
+        <item>@color/bubble6</item>
+        <item>@color/bubble7</item>
+        <item>@color/bubble6</item>
+        <item>@color/bubble7</item>
+        <item>@color/bubble6</item>
+        <item>@color/bubble7</item>
+    </integer-array>
+
+</resources>
